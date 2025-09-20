@@ -369,11 +369,13 @@
                         version download link where qr code will not be on the Backup and Extract screens</p>
                     <h3>Key Features</h3>
                     <ul>
+                        <li>Automation friendly commandline interface</li>
                         <li>Flash memory friendly</li>
                         <li>git like block based backups</li>
                         <li>file blocks are only written if changed</li>
                         <li>atomic file writes</li>
-                        <li>NOTE: Backups are tied to configuration file contents (backup-tool-config.json), without the
+                        <li>NOTE: A unique configuration file is created first time backupmanager is used. Backups are
+                            tied to configuration file (backup-tool-config.json), without the
                             configuration file used while creating the backup, the backup cannot be extracted. We
                             recommend backup backup-tool-config.json at a separate location than your backups.</li>
                         <!--<li>Automated cloud and local backups</li>
@@ -484,6 +486,20 @@
                     <img src="screenshot3.png">
                     <div class="screenshot-caption">
                         <p>Darkmode switch</p>
+                    </div>
+                </div>
+
+                <div class="screenshot" onclick="openLightbox('cli2.png', 'Command line interface')">
+                    <img src="cli2.png">
+                    <div class="screenshot-caption">
+                        <p>CLI</p>
+                    </div>
+                </div>
+
+                <div class="screenshot" onclick="openLightbox('cli1.png', 'Command line example')">
+                    <img src="cli1.png">
+                    <div class="screenshot-caption">
+                        <p>CLI example</p>
                     </div>
                 </div>
             </div>
